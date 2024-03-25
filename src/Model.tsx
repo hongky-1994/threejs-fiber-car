@@ -18,9 +18,9 @@ const Model = ({
   setIsFocus,
   setTargetPosition,
 }: Props) => {
-  const truck = useLoader(GLTFLoader, "/Truck Armored.glb");
-  const truck2 = useLoader(GLTFLoader, "/Pickup Truck Armored.glb");
-  const sportCar = useLoader(GLTFLoader, "/Sports Car.glb");
+  const truck = useLoader(GLTFLoader, "truck.glb");
+  const truck2 = useLoader(GLTFLoader, "truck2.glb");
+  const sportCar = useLoader(GLTFLoader, "sportCar.glb");
 
   const [isFocusingTarget, setIsFocusingTarget] = useState(false);
   const [mouseDown, setMouseDown] = useState(false);
